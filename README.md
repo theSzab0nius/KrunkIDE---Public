@@ -103,8 +103,7 @@ You must install the following userscripts for Frost to function correctly.
     const log = (...a) => DEBUG && console.log('[FROST editor]', ...a);
 
     const ALLOWED_ORIGINS = [
-        /^http:\/\/127\.0\.0\.1:\d+$/,
-        /^http:\/\/localhost:\d+$/
+        /^https:\/\/theszab0nius\.github\.io$/
     ];
 
     const isAllowed = origin => ALLOWED_ORIGINS.some(r => r.test(origin));
