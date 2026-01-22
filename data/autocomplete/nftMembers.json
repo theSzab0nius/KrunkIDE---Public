@@ -1,0 +1,14 @@
+[
+  {
+    "label": "hasWallet",
+    "kind": "Method",
+    "detail": "hasWallet(playerID): bool action()",
+    "insertText": "hasWallet(playerID)"
+  },
+  {
+    "label": "ownedAssets",
+    "kind": "Method",
+    "detail": "ownedAssets(playerID, collection, callb): obj[] action()",
+    "insertText": "ownedAssets(playerID, collection, callb)"
+  }
+]

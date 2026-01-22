@@ -1,0 +1,163 @@
+[
+  {
+    "label": "log",
+    "kind": "Method",
+    "detail": "log(...args: any)",
+    "insertText": "log(...args}",
+    "snippet": false
+  },
+  {
+    "label": "SCENE",
+    "kind": "Class",
+    "detail": "Scene / object / sky management"
+  },
+  {
+    "label": "PLAYERS",
+    "kind": "Class",
+    "detail": "Players collection & manager"
+  },
+  {
+    "label": "UI",
+    "kind": "Class",
+    "detail": "UI / DIV / overlay helpers"
+  },
+  {
+    "label": "ADMIN",
+    "kind": "Class",
+    "detail": "Admin moderation (ban/kick)"
+  },
+  {
+    "label": "AI",
+    "kind": "Class",
+    "detail": "AI bots spawn / list / remove"
+  },
+  {
+    "label": "ADS",
+    "kind": "Class",
+    "detail": "Ads / video playback"
+  },
+  {
+    "label": "ANIM",
+    "kind": "Class",
+    "detail": "Animation clip playback"
+  },
+  {
+    "label": "CAMERA",
+    "kind": "Class",
+    "detail": "Camera control & effects"
+  },
+  {
+    "label": "SETTINGS",
+    "kind": "Class",
+    "detail": "Game settings get/set/list"
+  },
+  {
+    "label": "SOUND",
+    "kind": "Class",
+    "detail": "Sound playback (2D/3D)"
+  },
+  {
+    "label": "STORAGE",
+    "kind": "Class",
+    "detail": "Persistent data storage"
+  },
+  {
+    "label": "TIME",
+    "kind": "Class",
+    "detail": "Time / delta / freeze utils"
+  },
+  {
+    "label": "TRIGGERS",
+    "kind": "Class",
+    "detail": "Trigger execution & get"
+  },
+  {
+    "label": "URLS",
+    "kind": "Class",
+    "detail": "Open external links (YT/Discord/Opensea)"
+  },
+  {
+    "label": "OVERLAY",
+    "kind": "Class",
+    "detail": "2D canvas drawing / paths"
+  },
+  {
+    "label": "PAYMENTS",
+    "kind": "Class",
+    "detail": "KR / payments handling"
+  },
+  {
+    "label": "PLATFORM",
+    "kind": "Class",
+    "detail": "Platform checks (browser/client/mobile)"
+  },
+  {
+    "label": "RAYCAST",
+    "kind": "Class",
+    "detail": "Raycasting from point/player"
+  },
+  {
+    "label": "CHAT",
+    "kind": "Class",
+    "detail": "Chat broadcast / send"
+  },
+  {
+    "label": "CONFIG",
+    "kind": "Class",
+    "detail": "Game config (host/classes/match)"
+  },
+  {
+    "label": "COOKIES",
+    "kind": "Class",
+    "detail": "Cookie storage utils"
+  },
+  {
+    "label": "DEFAULT",
+    "kind": "Class",
+    "detail": "Disable default behaviours"
+  },
+  {
+    "label": "INPUTS",
+    "kind": "Class",
+    "detail": "Input / mouse handling"
+  },
+  {
+    "label": "LIVE_OBJECTS",
+    "kind": "Class",
+    "detail": "Live / dynamic objects"
+  },
+  {
+    "label": "MODS",
+    "kind": "Class",
+    "detail": "Mod loading / reset"
+  },
+  {
+    "label": "NETWORK",
+    "kind": "Class",
+    "detail": "Network broadcast / send"
+  },
+  {
+    "label": "NFT",
+    "kind": "Class",
+    "detail": "NFT wallet / assets check"
+  },
+  {
+    "label": "OBJECTS",
+    "kind": "Class",
+    "detail": "General objects / paths / list"
+  },
+  {
+    "label": "changeGame",
+    "kind": "Method",
+    "detail": "changeGame(name: str, options: obj)",
+    "insertText": "changeGame(name, options)",
+    "snippet": false
+  },
+  {
+    "label": "setTitle",
+    "kind": "Method",
+    "detail": "setTitle(title: str)",
+    "insertText": "setTitle(title)",
+    "snippet": false
+  }
+]

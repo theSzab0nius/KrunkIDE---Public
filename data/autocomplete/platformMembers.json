@@ -1,0 +1,20 @@
+[
+  {
+    "label": "isBrowser",
+    "kind": "Method",
+    "detail": "isBrowser(): bool action()",
+    "insertText": "isBrowser()"
+  },
+  {
+    "label": "isClient",
+    "kind": "Method",
+    "detail": "isClient(): bool action()",
+    "insertText": "isClient()"
+  },
+  {
+    "label": "isMobile",
+    "kind": "Method",
+    "detail": "isMobile(): bool action()",
+    "insertText": "isMobile()"
+  }
+]

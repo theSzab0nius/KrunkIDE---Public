@@ -1,0 +1,26 @@
+[
+  {
+    "label": "load",
+    "kind": "Method",
+    "detail": "load(accountName, gameName, callb): action()",
+    "insertText": "load(accountName, gameName, callb)"
+  },
+  {
+    "label": "set",
+    "kind": "Method",
+    "detail": "set(accountName, data, access, callb): action()",
+    "insertText": "set(accountName, data, access, callb)"
+  },
+  {
+    "label": "transact",
+    "kind": "Method",
+    "detail": "transact(accountName, data, access, callb): action()",
+    "insertText": "transact(accountName, data, access, callb)"
+  },
+  {
+    "label": "update",
+    "kind": "Method",
+    "detail": "update(accountName, data, access, callb): action()",
+    "insertText": "update(accountName, data, access, callb)"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "label": "ban",
+    "kind": "Method",
+    "detail": "ban(playerID): action()",
+    "insertText": "ban(playerID)"
+  },
+  {
+    "label": "kick",
+    "kind": "Method",
+    "detail": "kick(playerID): action()",
+    "insertText": "kick(playerID)"
+  }
+]

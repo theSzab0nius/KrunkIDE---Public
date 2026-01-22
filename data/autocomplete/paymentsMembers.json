@@ -1,0 +1,14 @@
+[
+  {
+    "label": "charge",
+    "kind": "Method",
+    "detail": "charge(): action()",
+    "insertText": "charge()"
+  },
+  {
+    "label": "giveKR",
+    "kind": "Method",
+    "detail": "giveKR(player, val): action()",
+    "insertText": "giveKR(player, val)"
+  }
+]

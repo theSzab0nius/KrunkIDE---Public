@@ -1,0 +1,32 @@
+[
+  {
+    "label": "getClasses",
+    "kind": "Method",
+    "detail": "getClasses(): action()",
+    "insertText": "getClasses()"
+  },
+  {
+    "label": "getHost",
+    "kind": "Method",
+    "detail": "getHost(): obj action()",
+    "insertText": "getHost()"
+  },
+  {
+    "label": "getMatch",
+    "kind": "Method",
+    "detail": "getMatch(): action()",
+    "insertText": "getMatch()"
+  },
+  {
+    "label": "getSettings",
+    "kind": "Method",
+    "detail": "getSettings(): action()",
+    "insertText": "getSettings()"
+  },
+  {
+    "label": "getWeapons",
+    "kind": "Method",
+    "detail": "getWeapons(): action()",
+    "insertText": "getWeapons()"
+  }
+]

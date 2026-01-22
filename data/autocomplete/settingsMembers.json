@@ -1,0 +1,20 @@
+[
+  {
+    "label": "get",
+    "kind": "Method",
+    "detail": "get(key, val): str action()",
+    "insertText": "get(key, val)"
+  },
+  {
+    "label": "list",
+    "kind": "Method",
+    "detail": "list(): str action()",
+    "insertText": "list()"
+  },
+  {
+    "label": "set",
+    "kind": "Method",
+    "detail": "set(key, val): action()",
+    "insertText": "set(key, val)"
+  }
+]

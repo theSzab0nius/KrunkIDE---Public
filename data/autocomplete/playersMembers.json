@@ -1,0 +1,32 @@
+[
+  {
+    "label": "disableMeshes",
+    "kind": "Method",
+    "detail": "disableMeshes(): action()",
+    "insertText": "disableMeshes()"
+  },
+  {
+    "label": "findByID",
+    "kind": "Method",
+    "detail": "findByID(id): obj action()",
+    "insertText": "findByID(id)"
+  },
+  {
+    "label": "getSelf",
+    "kind": "Method",
+    "detail": "getSelf(): obj action()",
+    "insertText": "getSelf()"
+  },
+  {
+    "label": "list",
+    "kind": "Method",
+    "detail": "list(): obj[] action()",
+    "insertText": "list()"
+  },
+  {
+    "label": "toggleLOD",
+    "kind": "Method",
+    "detail": "toggleLOD(val): action()",
+    "insertText": "toggleLOD(val)"
+  }
+]

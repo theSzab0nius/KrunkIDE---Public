@@ -1,0 +1,21 @@
+:root {
+  --console-height: 150px;
+
+  --app-bg-url: none;
+  --glass-bg: rgba(24, 24, 46, 0.30);
+  --glass-border-color: rgba(255, 255, 255, 0.10);
+  --glass-border: 1px solid var(--glass-border-color);
+  --glass-blur: 12px;
+  --glass-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+
+  --ui-text: #e0e0ff;
+  --ui-solid: #0f0f1a;
+  --ui-border: #3a3a5a;
+  --ui-content-bg: #1a1a2e;
+  --ui-input-bg: #18182e;
+  --ui-hover: #2a2a4a;
+  --ui-accent: #ffe066;
+  --ui-success: #22c55e;
+  --ui-error: #ef4444;
+}

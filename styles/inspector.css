@@ -1,0 +1,52 @@
+#inspector-panel {
+  width: 320px;
+  flex: none;
+  background: var(--glass-bg);
+  border-left: 1px solid var(--glass-border-color);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(var(--glass-blur));
+  box-shadow: var(--glass-shadow);
+}
+
+
+#inspector-panel.drag-over {
+  outline: 2px dashed var(--ui-accent);
+  outline-offset: -2px;
+  box-shadow: 0 0 0 2px var(--ui-accent) inset, var(--glass-shadow);
+}
+
+#inspector-files {
+  flex: 1;
+  overflow-y: auto;
+}
+
+#inspector-bottom {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  border-top: 1px solid var(--ui-border);
+  background: var(--ui-solid);
+}
+
+#inspector-bottom button {
+  flex: 1;
+  padding: 6px 8px;
+  background: var(--ui-hover);
+  border: 1px solid var(--ui-border);
+  color: var(--ui-text);
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 2px;
+  transition: background 0.2s;
+}
+
+#inspector-bottom button:hover {
+  background: var(--ui-border);
+}
+
+#inspector-bottom button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

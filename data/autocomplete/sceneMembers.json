@@ -1,0 +1,152 @@
+[
+  {
+    "label": "addAsset",
+    "kind": "Method",
+    "detail": "addAsset(aid: str, x: num, y: num, z: num, scl: num, colr: str, data: obj, onLoadCallback: action)",
+    "insertText": "addAsset(aid, x, y, z, scl, colr, data, onLoadCallback)"
+  },
+  {
+    "label": "addCube",
+    "kind": "Method",
+    "detail": "addCube(aid: str, colr: str, x: num, y: num, z: num, w: num, h: num, l: num, data: obj)",
+    "insertText": "addCube(aid, colr, x, y, z, w, h, l, data)"
+  },
+  {
+    "label": "addCustom",
+    "kind": "Method",
+    "detail": "addCustom(aid: str, colr: str, verts: ?, x: num, y: num, z: num, tx: num, ty: num, tz: num, w: num, h: num, data: obj, castShadow: ?)",
+    "insertText": "addCustom(aid, colr, verts, x, y, z, tx, ty, tz, w, h, data, castShadow)"
+  },
+  {
+    "label": "addDirLight",
+    "kind": "Method",
+    "detail": "addDirLight(colr: str, x: num, y: num, z: num, w: num, l: num, h: num, data: obj)",
+    "insertText": "addDirLight(colr, x, y, z, w, l, h, data)"
+  },
+  {
+    "label": "addLightBar",
+    "kind": "Method",
+    "detail": "addLightBar(colr: str, x: num, y: num, z: num, w: num, l: num, h: num, data: obj, intensity: num, castShadow: ?)",
+    "insertText": "addLightBar(colr, x, y, z, w, l, h, data, intensity, castShadow)"
+  },
+  {
+    "label": "addLightCone",
+    "kind": "Method",
+    "detail": "addLightCone(colr: str, x: num, y: num, z: num, w: num, l: num, h: num, data: obj)",
+    "insertText": "addLightCone(colr, x, y, z, w, l, h, data)"
+  },
+  {
+    "label": "addPlane",
+    "kind": "Method",
+    "detail": "addPlane(colr: str, x: num, y: num, z: num, w: num, h: num, data: obj)",
+    "insertText": "addPlane(colr, x, y, z, w, h, data)"
+  },
+  {
+    "label": "addPointLight",
+    "kind": "Method",
+    "detail": "addPointLight(colr: str, x: num, y: num, z: num, distance: num, intensity: num, decay: num, castShadow: ?)",
+    "insertText": "addPointLight(colr, x, y, z, distance, intensity, decay, castShadow)"
+  },
+  {
+    "label": "addRectLight",
+    "kind": "Method",
+    "detail": "addRectLight(colr: str, x: num, y: num, z: num, w: num, l: num, intensity: num)",
+    "insertText": "addRectLight(colr, x, y, z, w, l, intensity)"
+  },
+  {
+    "label": "addSign",
+    "kind": "Method",
+    "detail": "addSign(x: num, y: num, z: num, w: num, l: num, text: str, data: obj)",
+    "insertText": "addSign(x, y, z, w, l, text, data)"
+  },
+  {
+    "label": "addSphere",
+    "kind": "Method",
+    "detail": "addSphere(aid: str, colr: str, x: num, y: num, z: num, w: num, h: num, l: num, data: obj)",
+    "insertText": "addSphere(aid, colr, x, y, z, w, h, l, data)"
+  },
+  {
+    "label": "addSpotLight",
+    "kind": "Method",
+    "detail": "addSpotLight(colr: str, x: num, y: num, z: num, tx: num, ty: num, tz: num, distance: num, decay: num, intensity: num, angle: num, penumbra: num, castShadow: ?)",
+    "insertText": "addSpotLight(colr, x, y, z, tx, ty, tz, distance, decay, intensity, angle, penumbra, castShadow)"
+  },
+  {
+    "label": "addSprite",
+    "kind": "Method",
+    "detail": "addSprite(aid: str, colr: str, x: num, y: num, z: num, w: num, h: num, l: num, data: obj)",
+    "insertText": "addSprite(aid, colr, x, y, z, w, h, l, data)"
+  },
+  {
+    "label": "clear",
+    "kind": "Method",
+    "detail": "clear()",
+    "insertText": "clear()"
+  },
+  {
+    "label": "movObj",
+    "kind": "Method",
+    "detail": "movObj(obj: obj, x: num, y: num, z: num)",
+    "insertText": "movObj(obj, x, y, z)"
+  },
+  {
+    "label": "posToScreen",
+    "kind": "Method",
+    "detail": "posToScreen(x: num, y: num, z: num)",
+    "insertText": "posToScreen(x, y, z)"
+  },
+  {
+    "label": "removeObj",
+    "kind": "Method",
+    "detail": "removeObj(obj: obj)",
+    "insertText": "removeObj(obj)"
+  },
+  {
+    "label": "removeSkyDome",
+    "kind": "Method",
+    "detail": "removeSkyDome()",
+    "insertText": "removeSkyDome()"
+  },
+  {
+    "label": "rotObj",
+    "kind": "Method",
+    "detail": "rotObj(obj: obj, x: num, y: num, z: num)",
+    "insertText": "rotObj(obj, x, y, z)"
+  },
+  {
+    "label": "scaleObj",
+    "kind": "Method",
+    "detail": "scaleObj(obj: obj, x: num, y: num, z: num)",
+    "insertText": "scaleObj(obj, x, y, z)"
+  },
+  {
+    "label": "setAmbientLight",
+    "kind": "Method",
+    "detail": "setAmbientLight(color: str, intensity: num)",
+    "insertText": "setAmbientLight(color, intensity)"
+  },
+  {
+    "label": "setFog",
+    "kind": "Method",
+    "detail": "setFog(color: str, distance: num)",
+    "insertText": "setFog(color, distance)"
+  },
+  {
+    "label": "setSkyColor",
+    "kind": "Method",
+    "detail": "setSkyColor(color: str)",
+    "insertText": "setSkyColor(color)"
+  },
+  {
+    "label": "setSkyDome",
+    "kind": "Method",
+    "detail": "setSkyDome(color1: str, color2: str, color3: str, data: obj)",
+    "insertText": "setSkyDome(color1, color2, color3, data)"
+  },
+  {
+    "label": "setSkyLight",
+    "kind": "Method",
+    "detail": "setSkyLight(color: str, intensity: num, sunAngX: num, sunAngY: num, distance: num)",
+    "insertText": "setSkyLight(color, intensity, sunAngX, sunAngY, distance)"
+  }
+]

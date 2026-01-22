@@ -1,0 +1,20 @@
+[
+  {
+    "label": "play2D",
+    "kind": "Method",
+    "detail": "play2D(aid, vol, rate, loop): obj action()",
+    "insertText": "play2D(aid, vol, rate, loop)"
+  },
+  {
+    "label": "play3D",
+    "kind": "Method",
+    "detail": "play3D(aid, vol, x, y, z, rate, loop): obj action()",
+    "insertText": "play3D(aid, vol, x, y, z, rate, loop)"
+  },
+  {
+    "label": "stop",
+    "kind": "Method",
+    "detail": "stop(aid): action()",
+    "insertText": "stop(aid)"
+  }
+]

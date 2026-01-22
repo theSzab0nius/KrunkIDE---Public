@@ -1,0 +1,32 @@
+[
+  {
+    "label": "fixedDelta",
+    "kind": "Method",
+    "detail": "fixedDelta(): num action()",
+    "insertText": "fixedDelta()"
+  },
+  {
+    "label": "freeze",
+    "kind": "Method",
+    "detail": "freeze(): action()",
+    "insertText": "freeze()"
+  },
+  {
+    "label": "getReadable",
+    "kind": "Method",
+    "detail": "getReadable(time): str action()",
+    "insertText": "getReadable(time)"
+  },
+  {
+    "label": "now",
+    "kind": "Method",
+    "detail": "now(): num action()",
+    "insertText": "now()"
+  },
+  {
+    "label": "unfreeze",
+    "kind": "Method",
+    "detail": "unfreeze(): action()",
+    "insertText": "unfreeze()"
+  }
+]

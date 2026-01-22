@@ -1,0 +1,37 @@
+#editor-container {
+  flex: 1 1 auto;
+  background: var(--glass-bg);
+  border-radius: 18px;
+  overflow: hidden;
+  border: var(--glass-border);
+  margin: 18px 24px 24px 24px;
+  width: auto;
+  box-shadow: var(--glass-shadow);
+  min-height: 0;
+  backdrop-filter: blur(var(--glass-blur));
+}
+
+
+.monaco-editor .search-hit {
+  background-color: rgba(255, 220, 80, 0.35);
+  border-bottom: 2px solid rgba(255, 220, 80, 0.45);
+}
+
+#editor-container::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  border-radius: 8px;
+  background: transparent;
+}
+#editor-container::-webkit-scrollbar-thumb {
+  background: #3a3a5a;
+  border-radius: 8px;
+  min-height: 24px;
+}
+#editor-container::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed;
+}
+#editor-container::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 8px;
+}

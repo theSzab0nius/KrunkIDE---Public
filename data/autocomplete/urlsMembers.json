@@ -1,0 +1,26 @@
+[
+  {
+    "label": "openDiscord",
+    "kind": "Method",
+    "detail": "openDiscord(): action()",
+    "insertText": "openDiscord()"
+  },
+  {
+    "label": "openOpensea",
+    "kind": "Method",
+    "detail": "openOpensea(): action()",
+    "insertText": "openOpensea()"
+  },
+  {
+    "label": "openTwitter",
+    "kind": "Method",
+    "detail": "openTwitter(): action()",
+    "insertText": "openTwitter()"
+  },
+  {
+    "label": "openYoutube",
+    "kind": "Method",
+    "detail": "openYoutube(): action()",
+    "insertText": "openYoutube()"
+  }
+]

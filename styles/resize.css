@@ -1,0 +1,11 @@
+#resize-handle {
+  display: none;
+}
+
+#resize-handle:hover {
+  background: #4a4a7a;
+}
+
+#resize-handle.dragging {
+  background: #7a7aaa;
+}

@@ -1,0 +1,109 @@
+[
+  {
+    "label": "HEXtoRGB",
+    "kind": "Function",
+    "detail": "HEXtoRGB(hex: str): obj",
+    "insertText": "HEXtoRGB(hex)"
+  },
+  {
+    "label": "RGBtoHEX",
+    "kind": "Function",
+    "detail": "RGBtoHEX(r: num, g: num, b: num): str",
+    "insertText": "RGBtoHEX(r, g, b)"
+  },
+  {
+    "label": "anglDst",
+    "kind": "Function",
+    "detail": "anglDst(x: num, y: num): num",
+    "insertText": "anglDst(x, y)"
+  },
+  {
+    "label": "copyToClipboard",
+    "kind": "Function",
+    "detail": "copyToClipboard(txt: str): void",
+    "insertText": "copyToClipboard(txt)"
+  },
+  {
+    "label": "getDir2D",
+    "kind": "Function",
+    "detail": "getDir2D(x: num, y: num, x2: num, y2: num): num",
+    "insertText": "getDir2D(x, y, x2, y2)"
+  },
+  {
+    "label": "getDir3D",
+    "kind": "Function",
+    "detail": "getDir3D(x: num, y: num, z: num, x2: num, y2: num, z2: num): obj",
+    "insertText": "getDir3D(x, y, z, x2, y2, z2)"
+  },
+  {
+    "label": "getDist2D",
+    "kind": "Function",
+    "detail": "getDist2D(x1: num, y1: num, x2: num, y2: num): num",
+    "insertText": "getDist2D(x1, y1, x2, y2)"
+  },
+  {
+    "label": "getDist3D",
+    "kind": "Function",
+    "detail": "getDist3D(x1: num, y1: num, z1: num, x2: num, y2: num, z2: num): num",
+    "insertText": "getDist3D(x1, y1, z1, x2, y2, z2)"
+  },
+  {
+    "label": "hexFromHue",
+    "kind": "Function",
+    "detail": "hexFromHue(value: num): str",
+    "insertText": "hexFromHue(value)"
+  },
+  {
+    "label": "invertHex",
+    "kind": "Function",
+    "detail": "invertHex(hex: str): str",
+    "insertText": "invertHex(hex)"
+  },
+  {
+    "label": "math",
+    "kind": "Module",
+    "detail": "Math utilities"
+  },
+  {
+    "label": "randFloat",
+    "kind": "Function",
+    "detail": "randFloat(min: num, max: num): num",
+    "insertText": "randFloat(min, max)"
+  },
+  {
+    "label": "randInt",
+    "kind": "Function",
+    "detail": "randInt(min: num, max: num): num",
+    "insertText": "randInt(min, max)"
+  },
+  {
+    "label": "replaceText",
+    "kind": "Function",
+    "detail": "replaceText(txt: str, segm: str, wit: str): str",
+    "insertText": "replaceText(txt, segm, wit)"
+  },
+  {
+    "label": "textContains",
+    "kind": "Function",
+    "detail": "textContains(txt: str, search: str): bool",
+    "insertText": "textContains(txt, search)"
+  },
+  {
+    "label": "toLower",
+    "kind": "Function",
+    "detail": "toLower(str: str): str",
+    "insertText": "toLower(str)"
+  },
+  {
+    "label": "toUpper",
+    "kind": "Function",
+    "detail": "toUpper(str: str): str",
+    "insertText": "toUpper(str)"
+  },
+  {
+    "label": "truncateText",
+    "kind": "Function",
+    "detail": "truncateText(str: str, ln: num, noDot: bool, start: bool): str",
+    "insertText": "truncateText(str, ln, noDot, start)"
+  }
+]

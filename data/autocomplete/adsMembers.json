@@ -1,0 +1,6 @@
+{
+  "playVideo": {
+    "returns": "action",
+    "cooldown": 90
+  }
+}

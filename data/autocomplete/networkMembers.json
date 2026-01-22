@@ -1,0 +1,14 @@
+[
+  {
+    "label": "broadcast",
+    "kind": "Method",
+    "detail": "broadcast(id, data): bool action()",
+    "insertText": "broadcast(id, data)"
+  },
+  {
+    "label": "send",
+    "kind": "Method",
+    "detail": "send(id, data, playerID): bool action()",
+    "insertText": "send(id, data, playerID)"
+  }
+]

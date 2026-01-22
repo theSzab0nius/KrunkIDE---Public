@@ -1,0 +1,68 @@
+[
+  {
+    "label": "addDIV",
+    "kind": "Method",
+    "detail": "addDIV(elementId, vis, styl, parentId): str action()",
+    "insertText": "addDIV(elementId, vis, styl, parentId)"
+  },
+  {
+    "label": "addImage",
+    "kind": "Method",
+    "detail": "addImage(assetId, elementId, vis, styl, parentId): str action()",
+    "insertText": "addImage(assetId, elementId, vis, styl, parentId)"
+  },
+  {
+    "label": "getDIVText",
+    "kind": "Method",
+    "detail": "getDIVText(id): str action()",
+    "insertText": "getDIVText(id)"
+  },
+  {
+    "label": "getProp",
+    "kind": "Method",
+    "detail": "getProp(id, prop): str action()",
+    "insertText": "getProp(id, prop)"
+  },
+  {
+    "label": "getSize",
+    "kind": "Method",
+    "detail": "getSize(): obj action()",
+    "insertText": "getSize()"
+  },
+  {
+    "label": "hideCrosshair",
+    "kind": "Method",
+    "detail": "hideCrosshair(): action()",
+    "insertText": "hideCrosshair()"
+  },
+  {
+    "label": "hideDefault",
+    "kind": "Method",
+    "detail": "hideDefault(): action()",
+    "insertText": "hideDefault()"
+  },
+  {
+    "label": "moveDIV",
+    "kind": "Method",
+    "detail": "moveDIV(oldId, parentId, newId): str action()",
+    "insertText": "moveDIV(oldId, parentId, newId)"
+  },
+  {
+    "label": "removeDIV",
+    "kind": "Method",
+    "detail": "removeDIV(id): action()",
+    "insertText": "removeDIV(id)"
+  },
+  {
+    "label": "updateDIV",
+    "kind": "Method",
+    "detail": "updateDIV(id, prop, val): action()",
+    "insertText": "updateDIV(id, prop, val)"
+  },
+  {
+    "label": "updateDIVText",
+    "kind": "Method",
+    "detail": "updateDIVText(id, text): action()",
+    "insertText": "updateDIVText(id, text)"
+  }
+]

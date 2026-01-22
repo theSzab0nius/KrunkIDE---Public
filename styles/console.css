@@ -1,0 +1,123 @@
+#console-container {
+  width: 100%;
+  flex: 0 0 var(--console-height, 150px);
+  height: var(--console-height, 150px);
+
+  background: var(--glass-bg);
+  border-top: var(--glass-border);
+  border-right: var(--glass-border);
+  border-left: var(--glass-border);
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all 300ms ease-in-out;
+  will-change: height;
+  backdrop-filter: blur(var(--glass-blur));
+  box-shadow: var(--glass-shadow);
+}
+
+#console-container.collapsed #console-content,
+#console-container.collapsed #console-input {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#console-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--ui-solid);
+  border-bottom: 1px solid var(--ui-border);
+  cursor: pointer;
+  user-select: none;
+  flex-shrink: 0;
+  font-size: 13px;
+}
+
+#console-header:hover {
+  background: var(--ui-hover);
+}
+
+#console-toggle-arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #a0a0c0;
+  transition: transform 0.2s;
+}
+
+#console-toggle-arrow.collapsed {
+  transform: rotate(-90deg);
+}
+
+.console-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.console-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.1em;
+  height: 1.1em;
+  filter: invert(1) brightness(0.8);
+}
+
+#console-content {
+  flex: 1;
+  overflow-y: auto;
+  background: var(--ui-content-bg);
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+  will-change: opacity;
+}
+
+#console-input {
+  width: 100%;
+  background: var(--ui-input-bg);
+  color: var(--ui-text);
+  border: none;
+  padding: 8px 12px;
+  font-family: monospace;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+  will-change: opacity;
+}
+
+.console-line {
+  font-family: monospace;
+  font-size: 13px;
+  padding: 4px 8px;
+  white-space: pre-wrap;
+  border-left: 3px solid transparent;
+}
+
+.console-log {
+  color: #cfcfff;
+}
+
+.console-warn {
+  color: #ffd27d;
+  border-left-color: #ffd27d;
+}
+
+.console-error {
+  color: #ff8a8a;
+  border-left-color: #ff8a8a;
+}
+
+.console-info {
+  color: #22c55e;
+  border-left-color: #22c55e;
+}

@@ -1,0 +1,66 @@
+.logo-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0 20px 0 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+.logo-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-glow {
+  position: absolute;
+  inset: 0;
+  background-color: rgb(168 85 247 / 0.3);
+  filter: blur(48px);
+  border-radius: 9999px;
+  z-index: 0;
+}
+
+.logo-box {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(to bottom right, #a855f7, #06b6d4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: white;
+  box-shadow: 0 10px 15px -3px rgb(168 85 247 / 0.5);
+  z-index: 1;
+}
+
+.logo-text {
+  font-size: 2.2rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #c084fc, #22d3ee);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  top: -4.5px;
+}
+
+.logo-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
+}
+
+.logo-subtitle {
+  font-size: 0.85rem;
+  color: #a0a0c0;
+  opacity: 0.9;
+  margin-top: -10px;
+  font-weight: 500;
+}

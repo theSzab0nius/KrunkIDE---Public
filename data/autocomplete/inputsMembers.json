@@ -1,0 +1,56 @@
+[
+  {
+    "label": "disableDefault",
+    "kind": "Method",
+    "detail": "disableDefault(): action()",
+    "insertText": "disableDefault()"
+  },
+  {
+    "label": "enableDefault",
+    "kind": "Method",
+    "detail": "enableDefault(): action()",
+    "insertText": "enableDefault()"
+  },
+  {
+    "label": "freeMouse",
+    "kind": "Method",
+    "detail": "freeMouse(): action()",
+    "insertText": "freeMouse()"
+  },
+  {
+    "label": "keyDown",
+    "kind": "Method",
+    "detail": "keyDown(keyCode): bool action()",
+    "insertText": "keyDown(keyCode)"
+  },
+  {
+    "label": "lockMouse",
+    "kind": "Method",
+    "detail": "lockMouse(): action()",
+    "insertText": "lockMouse()"
+  },
+  {
+    "label": "mouseMovement",
+    "kind": "Method",
+    "detail": "mouseMovement(): obj action()",
+    "insertText": "mouseMovement()"
+  },
+  {
+    "label": "mousePos",
+    "kind": "Method",
+    "detail": "mousePos(): obj action()",
+    "insertText": "mousePos()"
+  },
+  {
+    "label": "mousePosOverlay",
+    "kind": "Method",
+    "detail": "mousePosOverlay(): obj action()",
+    "insertText": "mousePosOverlay()"
+  },
+  {
+    "label": "unlockMouse",
+    "kind": "Method",
+    "detail": "unlockMouse(): action()",
+    "insertText": "unlockMouse()"
+  }
+]

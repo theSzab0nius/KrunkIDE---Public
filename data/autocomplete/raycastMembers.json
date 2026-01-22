@@ -1,0 +1,14 @@
+[
+  {
+    "label": "from",
+    "kind": "Method",
+    "detail": "from(x, y, z, xD, yD, dist): obj action()",
+    "insertText": "from(x, y, z, xD, yD, dist)"
+  },
+  {
+    "label": "fromPlayer",
+    "kind": "Method",
+    "detail": "fromPlayer(player, dist): obj action()",
+    "insertText": "fromPlayer(player, dist)"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "label": "addCube",
+    "kind": "Method",
+    "detail": "addCube(x, y, z, w, h, l, s, data): obj action()",
+    "insertText": "addCube(x, y, z, w, h, l, s, data)"
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "label": "arc",
+    "kind": "Method",
+    "detail": "arc(x, y, radius, startAngle, endAngle, counterClockwise): action()",
+    "insertText": "arc(x, y, radius, startAngle, endAngle, counterClockwise)"
+  },
+  {
+    "label": "arcTo",
+    "kind": "Method",
+    "detail": "arcTo(x1, y1, x2, y2, radius): action()",
+    "insertText": "arcTo(x1, y1, x2, y2, radius)"
+  },
+  {
+    "label": "beginPath",
+    "kind": "Method",
+    "detail": "beginPath(): action()",
+    "insertText": "beginPath()"
+  },
+  {
+    "label": "bezierCurveTo",
+    "kind": "Method",
+    "detail": "bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x, y): action()",
+    "insertText": "bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x, y)"
+  },
+  {
+    "label": "clear",
+    "kind": "Method",
+    "detail": "clear(): action()",
+    "insertText": "clear()"
+  },
+  {
+    "label": "closePath",
+    "kind": "Method",
+    "detail": "closePath(): action()",
+    "insertText": "closePath()"
+  },
+  {
+    "label": "drawCircle",
+    "kind": "Method",
+    "detail": "drawCircle(x, y, w, h, r, color, opac, center): action()",
+    "insertText": "drawCircle(x, y, w, h, r, color, opac, center)"
+  },
+  {
+    "label": "drawImage",
+    "kind": "Method",
+    "detail": "drawImage(aid, x, y, w, h, r, opac): action()",
+    "insertText": "drawImage(aid, x, y, w, h, r, opac)"
+  },
+  {
+    "label": "drawLine",
+    "kind": "Method",
+    "detail": "drawLine(x1, y1, x2, y2, thickness, color, opac): action()",
+    "insertText": "drawLine(x1, y1, x2, y2, thickness, color, opac)"
+  },
+  {
+    "label": "drawRect",
+    "kind": "Method",
+    "detail": "drawRect(x, y, w, h, r, color, opac, center): action()",
+    "insertText": "drawRect(x, y, w, h, r, color, opac, center)"
+  },
+  {
+    "label": "drawText",
+    "kind": "Method",
+    "detail": "drawText(text, x, y, r, size, align, color, opac, font): action()",
+    "insertText": "drawText(text, x, y, r, size, align, color, opac, font)"
+  },
+  {
+    "label": "ellipse",
+    "kind": "Method",
+    "detail": "ellipse(x, y, radiusX, radiusY, rotation, startAngle, endAngle, counterClockwise): action()",
+    "insertText": "ellipse(x, y, radiusX, radiusY, rotation, startAngle, endAngle, counterClockwise)"
+  },
+  {
+    "label": "fill",
+    "kind": "Method",
+    "detail": "fill(): action()",
+    "insertText": "fill()"
+  },
+  {
+    "label": "fillStyle",
+    "kind": "Method",
+    "detail": "fillStyle(color): action()",
+    "insertText": "fillStyle(color)"
+  },
+  {
+    "label": "getSize",
+    "kind": "Method",
+    "detail": "getSize(): obj action()",
+    "insertText": "getSize()"
+  },
+  {
+    "label": "globalAlpha",
+    "kind": "Method",
+    "detail": "globalAlpha(val): action()",
+    "insertText": "globalAlpha(val)"
+  },
+  {
+    "label": "lineDashOffset",
+    "kind": "Method",
+    "detail": "lineDashOffset(offset): action()",
+    "insertText": "lineDashOffset(offset)"
+  },
+  {
+    "label": "lineJoin",
+    "kind": "Method",
+    "detail": "lineJoin(option): action()",
+    "insertText": "lineJoin(option)"
+  },
+  {
+    "label": "lineTo",
+    "kind": "Method",
+    "detail": "lineTo(x, y): action()",
+    "insertText": "lineTo(x, y)"
+  },
+  {
+    "label": "lineWidth",
+    "kind": "Method",
+    "detail": "lineWidth(width): action()",
+    "insertText": "lineWidth(width)"
+  },
+  {
+    "label": "measureText",
+    "kind": "Method",
+    "detail": "measureText(size, text, font): num action()",
+    "insertText": "measureText(size, text, font)"
+  },
+  {
+    "label": "moveTo",
+    "kind": "Method",
+    "detail": "moveTo(x, y): action()",
+    "insertText": "moveTo(x, y)"
+  },
+  {
+    "label": "offset",
+    "kind": "Method",
+    "detail": "offset(x, y): action()",
+    "insertText": "offset(x, y)"
+  },
+  {
+    "label": "quadraticCurveTo",
+    "kind": "Method",
+    "detail": "quadraticCurveTo(cpx, cpy, x, y): action()",
+    "insertText": "quadraticCurveTo(cpx, cpy, x, y)"
+  },
+  {
+    "label": "restore",
+    "kind": "Method",
+    "detail": "restore(): action()",
+    "insertText": "restore()"
+  },
+  {
+    "label": "save",
+    "kind": "Method",
+    "detail": "save(): action()",
+    "insertText": "save()"
+  },
+  {
+    "label": "scale",
+    "kind": "Method",
+    "detail": "scale(scl): action()",
+    "insertText": "scale(scl)"
+  },
+  {
+    "label": "setTransform",
+    "kind": "Method",
+    "detail": "setTransform(a, b, c, d, e, f): action()",
+    "insertText": "setTransform(a, b, c, d, e, f)"
+  },
+  {
+    "label": "stroke",
+    "kind": "Method",
+    "detail": "stroke(): action()",
+    "insertText": "stroke()"
+  },
+  {
+    "label": "strokeRect",
+    "kind": "Method",
+    "detail": "strokeRect(x, y, width, height): action()",
+    "insertText": "strokeRect(x, y, width, height)"
+  },
+  {
+    "label": "strokeStyle",
+    "kind": "Method",
+    "detail": "strokeStyle(color): action()",
+    "insertText": "strokeStyle(color)"
+  },
+  {
+    "label": "strokeText",
+    "kind": "Method",
+    "detail": "strokeText(text, x, y, maxWidth): action()",
+    "insertText": "strokeText(text, x, y, maxWidth)"
+  },
+  {
+    "label": "transform",
+    "kind": "Method",
+    "detail": "transform(a, b, c, d, e, f): action()",
+    "insertText": "transform(a, b, c, d, e, f)"
+  },
+  {
+    "label": "translate",
+    "kind": "Method",
+    "detail": "translate(x, y): action()",
+    "insertText": "translate(x, y)"
+  }
+]

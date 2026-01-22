@@ -1,0 +1,20 @@
+[
+  {
+    "label": "list",
+    "kind": "Method",
+    "detail": "list(): obj[] action()",
+    "insertText": "list()"
+  },
+  {
+    "label": "remove",
+    "kind": "Method",
+    "detail": "remove(sid): action()",
+    "insertText": "remove(sid)"
+  },
+  {
+    "label": "spawn",
+    "kind": "Method",
+    "detail": "spawn(aid, name, x, y, z, data): obj action()",
+    "insertText": "spawn(aid, name, x, y, z, data)"
+  }
+]

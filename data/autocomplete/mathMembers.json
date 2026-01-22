@@ -1,0 +1,202 @@
+[
+  { "label": "E", "kind": "Constant", "detail": "Euler's number (≈2.718)" },
+  { "label": "PI", "kind": "Constant", "detail": "PI (≈3.14159)" },
+  { "label": "PI2", "kind": "Constant", "detail": "2 * PI" },
+
+  {
+    "label": "abs",
+    "kind": "Function",
+    "detail": "abs(x: num): num",
+    "insertText": "abs(x)"
+  },
+  {
+    "label": "acos",
+    "kind": "Function",
+    "detail": "acos(x: num): num",
+    "insertText": "acos(x)"
+  },
+  {
+    "label": "acosh",
+    "kind": "Function",
+    "detail": "acosh(x: num): num",
+    "insertText": "acosh(x)"
+  },
+  {
+    "label": "asin",
+    "kind": "Function",
+    "detail": "asin(x: num): num",
+    "insertText": "asin(x)"
+  },
+  {
+    "label": "asinh",
+    "kind": "Function",
+    "detail": "asinh(x: num): num",
+    "insertText": "asinh(x)"
+  },
+  {
+    "label": "atan",
+    "kind": "Function",
+    "detail": "atan(x: num): num",
+    "insertText": "atan(x)"
+  },
+  {
+    "label": "atan2",
+    "kind": "Function",
+    "detail": "atan2(x: num, y: num): num",
+    "insertText": "atan2(x, y)"
+  },
+  {
+    "label": "atanh",
+    "kind": "Function",
+    "detail": "atanh(x: num): num",
+    "insertText": "atanh(x)"
+  },
+
+  {
+    "label": "calcPerc",
+    "kind": "Function",
+    "detail": "calcPerc(num: num, perc: num): num",
+    "insertText": "calcPerc(num, perc)"
+  },
+
+  {
+    "label": "ceil",
+    "kind": "Function",
+    "detail": "ceil(x: num): num",
+    "insertText": "ceil(x)"
+  },
+  {
+    "label": "cos",
+    "kind": "Function",
+    "detail": "cos(x: num): num",
+    "insertText": "cos(x)"
+  },
+  {
+    "label": "cosh",
+    "kind": "Function",
+    "detail": "cosh(x: num): num",
+    "insertText": "cosh(x)"
+  },
+
+  {
+    "label": "exp",
+    "kind": "Function",
+    "detail": "exp(x: num): num",
+    "insertText": "exp(x)"
+  },
+  {
+    "label": "floor",
+    "kind": "Function",
+    "detail": "floor(x: num): num",
+    "insertText": "floor(x)"
+  },
+  {
+    "label": "hypot",
+    "kind": "Function",
+    "detail": "hypot(...args: num[]): num",
+    "insertText": "hypot(...args)"
+  },
+
+  {
+    "label": "lerp",
+    "kind": "Function",
+    "detail": "lerp(x: num, y: num, z: num): num",
+    "insertText": "lerp(x, y, z)"
+  },
+  {
+    "label": "log",
+    "kind": "Function",
+    "detail": "log(x: num): num",
+    "insertText": "log(x)"
+  },
+
+  {
+    "label": "max",
+    "kind": "Function",
+    "detail": "max(...args: num[]): num",
+    "insertText": "max(...args)"
+  },
+  {
+    "label": "min",
+    "kind": "Function",
+    "detail": "min(...args: num[]): num",
+    "insertText": "min(...args)"
+  },
+
+  {
+    "label": "pow",
+    "kind": "Function",
+    "detail": "pow(x: num, y: num): num",
+    "insertText": "pow(x, y)"
+  },
+
+  {
+    "label": "round",
+    "kind": "Function",
+    "detail": "round(x: num): num",
+    "insertText": "round(x)"
+  },
+  {
+    "label": "roundDecimal",
+    "kind": "Function",
+    "detail": "roundDecimal(num: num, places: num): num",
+    "insertText": "roundDecimal(num, places)"
+  },
+  {
+    "label": "roundToNearest",
+    "kind": "Function",
+    "detail": "roundToNearest(num: num, near: num): num",
+    "insertText": "roundToNearest(num, near)"
+  },
+
+  {
+    "label": "sin",
+    "kind": "Function",
+    "detail": "sin(x: num): num",
+    "insertText": "sin(x)"
+  },
+  {
+    "label": "sinh",
+    "kind": "Function",
+    "detail": "sinh(x: num): num",
+    "insertText": "sinh(x)"
+  },
+  {
+    "label": "sqrt",
+    "kind": "Function",
+    "detail": "sqrt(x: num): num",
+    "insertText": "sqrt(x)"
+  },
+
+  {
+    "label": "tan",
+    "kind": "Function",
+    "detail": "tan(x: num): num",
+    "insertText": "tan(x)"
+  },
+  {
+    "label": "tanh",
+    "kind": "Function",
+    "detail": "tanh(x: num): num",
+    "insertText": "tanh(x)"
+  },
+
+  {
+    "label": "toDeg",
+    "kind": "Function",
+    "detail": "toDeg(x: num): num",
+    "insertText": "toDeg(x)"
+  },
+  {
+    "label": "toRad",
+    "kind": "Function",
+    "detail": "toRad(x: num): num",
+    "insertText": "toRad(x)"
+  },
+  {
+    "label": "trunc",
+    "kind": "Function",
+    "detail": "trunc(x: num): num",
+    "insertText": "trunc(x)"
+  }
+]

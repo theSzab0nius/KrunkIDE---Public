@@ -1,0 +1,14 @@
+[
+  {
+    "label": "broadcast",
+    "kind": "Method",
+    "detail": "broadcast(message, color): action()",
+    "insertText": "broadcast(message, color)"
+  },
+  {
+    "label": "send",
+    "kind": "Method",
+    "detail": "send(playerID, message, color): action()",
+    "insertText": "send(playerID, message, color)"
+  }
+]

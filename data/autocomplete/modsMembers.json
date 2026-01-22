@@ -1,0 +1,14 @@
+[
+  {
+    "label": "load",
+    "kind": "Method",
+    "detail": "load(url): action()",
+    "insertText": "load(url)"
+  },
+  {
+    "label": "reset",
+    "kind": "Method",
+    "detail": "reset(): action()",
+    "insertText": "reset()"
+  }
+]

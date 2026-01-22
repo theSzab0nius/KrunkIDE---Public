@@ -1,0 +1,26 @@
+[
+  {
+    "label": "disable3D",
+    "kind": "Method",
+    "detail": "disable3D(): action()",
+    "insertText": "disable3D()"
+  },
+  {
+    "label": "disablePlayerBehaviour",
+    "kind": "Method",
+    "detail": "disablePlayerBehaviour(): action()",
+    "insertText": "disablePlayerBehaviour()"
+  },
+  {
+    "label": "disablePrediction",
+    "kind": "Method",
+    "detail": "disablePrediction(): action()",
+    "insertText": "disablePrediction()"
+  },
+  {
+    "label": "disableServerSync",
+    "kind": "Method",
+    "detail": "disableServerSync(): action()",
+    "insertText": "disableServerSync()"
+  }
+]

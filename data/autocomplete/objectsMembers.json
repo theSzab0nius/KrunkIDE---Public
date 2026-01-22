@@ -1,0 +1,20 @@
+[
+  {
+    "label": "getByInterface",
+    "kind": "Method",
+    "detail": "getByInterface(id): obj[] action()",
+    "insertText": "getByInterface(id)"
+  },
+  {
+    "label": "getPathNodes",
+    "kind": "Method",
+    "detail": "getPathNodes(): obj[] action()",
+    "insertText": "getPathNodes()"
+  },
+  {
+    "label": "list",
+    "kind": "Method",
+    "detail": "list(): obj[] action()",
+    "insertText": "list()"
+  }
+]
